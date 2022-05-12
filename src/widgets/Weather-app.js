@@ -34,7 +34,8 @@ export default function WeatherApp() {
             />
 
 
-            {typeof weatherData.main === 'undefined' ? (
+            {
+                typeof weatherData.main === 'undefined' ? (
                 <div>
                     <p>Enter ur localisation to get the weather</p>
                 </div>
@@ -44,12 +45,15 @@ export default function WeatherApp() {
                     <p>{weatherData.name}</p>
                     <p>{Math.round((weatherData.main.temp -32)*5/9)}°C</p>
                     <p>{weatherData.weather[0].main}</p>
+                    <img src={`http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`} alt="weather_icon"/>
+
                 </div>
             )}
 
             {weatherData.cod === "404" ? (
                 <p>City not found</p>
-            ):(
+            )
+                :(
                 <>
                 </>
             )}

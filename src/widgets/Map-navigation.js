@@ -29,7 +29,10 @@ export default function MapNavigation(){
          setMap(map)
 
         const addMarker =()=>{
-
+            const popupOffset = {
+                bottom: [0,-25]
+            }
+           const popup = new tt.Popup({offset: popupOffset}).setHTML('This is u')
            const element = document.createElement('div')
             element.className = 'marker'
 
@@ -45,6 +48,8 @@ export default function MapNavigation(){
                 setLongitude(lngLat.lng)
                 setLatitude(lngLat.lat)
             })
+
+            marker.setPopup(popup).togglePopup()
         }
 
         addMarker()

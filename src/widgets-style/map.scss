@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+
+.map-container {
+  height: 600px;
+  width: 100vh;
+  .map {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.marker {
+  background-image: url("https://www.flaticon.com/free-icon/placeholder_684908?term=map%20marker&page=1&position=2&page=1&position=2&related_id=684908&origin=search");
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  border: solid 3px darkgray;
+}

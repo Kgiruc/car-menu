@@ -7,8 +7,8 @@ export default function MapNavigation(){
 
     const mapElement = useRef()
     const [map,setMap] = useState({})
-    const [longitude, setLongitude] = useState(-0.112869)
-    const [latitude,setLatitude] = useState(51.504)
+    const [longitude, setLongitude] = useState(18.638306)
+    const [latitude,setLatitude] = useState(54.372158)
     const mapKey = "6LWNbmx2cA53NSsAKaFbgsqeWGAmBwj1";
 
 

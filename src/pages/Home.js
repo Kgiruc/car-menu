@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React  from "react";
 import WeatherApp from "../widgets/Weather-app";
 import Clockdata from "../widgets/Clockdata";
 

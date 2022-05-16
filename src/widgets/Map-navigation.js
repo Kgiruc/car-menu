@@ -36,7 +36,7 @@ export default function MapNavigation(){
           },
           paint:{
               'line-color': '#4a90e2',
-              'line-width': 6
+              'line-width': 7
           }
         })
     }

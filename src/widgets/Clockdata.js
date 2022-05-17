@@ -11,6 +11,8 @@ export default function Clockdata(){
     },[])
 
     return(
+        <div className="clock-container container">
         <div className="clock">{clockState}</div>
+        </div>
     )
 }

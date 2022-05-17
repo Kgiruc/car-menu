@@ -1,4 +1,4 @@
-.weather-container{
+.container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +16,7 @@
 
 .error{
   color:$color-red;
-  font-family: $font-weight;
+  font-family: $font-bolder;
   font-style: italic;
 
 }
@@ -27,7 +27,7 @@
   font-size: $font-size-smaller;
   padding: 15px;
 
-  border: 2px solid $color-gray-white;
+  border: 2px solid $color-gray;
   border-radius: 20px;
     &:focus{
       outline: none;
@@ -42,21 +42,24 @@
   font-size: $font-origin;
 
  :first-child{
+   font-family: $font-bold;
    font-size: $font-size-bigger;
-
+   color: $color-gray-white;
+   letter-spacing: -4px;
  }
   .weather-image{
     height:150px;
   }
 
   .temp{
-    font-family: $font-weight;
-    color:$color-black;
+    font-family: $font-bolder;
+    color:$color-white;
   }
 
   :last-child{
     font-size: calc($font-size-smaller + 10px);
     margin-left: 40px;
+    color:$color-gray-white
   }
 }
 

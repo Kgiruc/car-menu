@@ -26,7 +26,7 @@ export default function WeatherApp() {
 
 
     return (
-        <div className="weather-container">
+        <div className="weather-container container">
             <input className="weather-box" placeholder="Enter City"
                    onChange={e => setCity(e.target.value)}
                    value={city}

@@ -5,9 +5,9 @@ import Clockdata from "../widgets/Clockdata";
 
 export default function Home() {
 return(
-    <>
+    <div className="home-container">
         <WeatherApp/>
         <Clockdata/>
-    </>
+    </div>
     )
 }

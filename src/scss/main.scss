@@ -1,3 +1,13 @@
+@import "reset";
+@import "../general-styles/body-style";
+@import "../general-styles/fonts";
+@import "../general-styles/colors";
+
 @import "../widgets-style/weather";
 @import "../widgets-style/clock";
 @import "../widgets-style/map";
+
+
+body{
+  font-family: $font-origin;
+}

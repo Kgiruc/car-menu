@@ -30,28 +30,30 @@ export default function WeatherApp() {
             <input className="weather-box" placeholder="Enter City"
                    onChange={e => setCity(e.target.value)}
                    value={city}
-                   onKeyPress={getWeather}
+                   onKeyPress= {getWeather}
             />
 
 
             {
                 typeof weatherData.main === 'undefined' ? (
                 <div>
-                    <p>Enter ur localisation to get the weather</p>
+                    <p className="inscription">Enter your localisation to get the weather</p>
                 </div>
 
             ): (
                 <div className="weather-data">
                     <p>{weatherData.name}</p>
-                    <p>{Math.round((weatherData.main.temp -32)*5/9)}°C</p>
+                    <img className="weather-image" src={`http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`} alt="weather_icon"/>
+                    <p className="temp">{Math.round((weatherData.main.temp -32)*5/9)}°C</p>
                     <p>{weatherData.weather[0].main}</p>
-                    <img src={`http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`} alt="weather_icon"/>
+
+
 
                 </div>
             )}
 
             {weatherData.cod === "404" ? (
-                <p>City not found</p>
+                <p className="inscription error">City not found</p>
             )
                 :(
                 <>

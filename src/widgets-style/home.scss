@@ -1,0 +1,10 @@
+.home-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  font-size: $font-size-general;
+  margin-top: 50%;
+  gap:20%;
+}

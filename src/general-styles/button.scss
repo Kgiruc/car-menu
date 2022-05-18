@@ -1,0 +1,33 @@
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: $color-white;
+  border: none;
+  color: $color-gray;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover  {
+  background-color: $color-gray-white;
+}

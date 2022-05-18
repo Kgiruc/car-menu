@@ -1,30 +1,29 @@
-body{
-  display: flex;
-  justify-content: center;
-}
-
 
 .map-container {
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
   width: 100vh;
   .map {
     height: 100%;
     width: 100%;
+    border-radius: 10px;
   }
 }
 
 .marker {
-  //background-image: url("https://www.flaticon.com/free-icon/placeholder_684908?term=map%20marker&page=1&position=2&page=1&position=2&related_id=684908&origin=search");
+  background-image: url('https://img.icons8.com/android/344/finish-flag.png');
   background-size: cover;
-  background-color: red;
-  width: 22px;
-  height: 22px;
-  border-radius: 11px;
-  border: solid 3px blue;
+  width: 32px;
+  height: 32px;
+
 }
 
 .marker-goal{
-  width: 22px;
-  height: 22px;
-  background-color: black;
+  width: 42px;
+  height: 42px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/684/684908.png');
+  background-size: cover;
 }
+

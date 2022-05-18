@@ -13,21 +13,7 @@
   margin: 5px;
 }
 
-.btn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.btn span:after {
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
 .btn:hover  {
   background-color: $color-gray-white;
 }
+

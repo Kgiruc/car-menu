@@ -11,8 +11,8 @@ return(
     <div className="home-container">
         <WeatherApp/>
         <Clockdata/>
-        <ButtonRight/>
     </div>
+        <ButtonRight/>
     </>
     )
 }

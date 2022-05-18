@@ -9,4 +9,8 @@
   margin-left:0;
   margin-right:30vh;
   gap:20px;
+  @media only screen and (max-width: 1200px) {
+    height: 50vh;
+    width: 80vh;
+  }
 }

@@ -1,4 +1,5 @@
 # Car menu
+#### prefer using Tablet/PC
 
 ### link to firebase: [Car Menu](https://car-menu-c07e2.web.app/)
 Reactjs / Sass style

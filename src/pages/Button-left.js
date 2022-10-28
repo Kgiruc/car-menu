@@ -7,5 +7,5 @@ export default function ButtonLeft(){
         navigate('/');
     }
     return (
-        <button className="navigation btn" onClick={handleClick}><span>Home </span></button>);
+        <button className="navigation btn home" onClick={handleClick}><span>Home </span></button>);
 }

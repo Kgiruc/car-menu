@@ -1,5 +1,4 @@
-
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,28 +14,27 @@
   }
 }
 
-.inscription{
-  font-size: calc($font-size-smaller - 7px);
+.inscription {
+  font-size: $font-size-smaller;
 }
 
-.error{
-  color:$color-red;
+.error {
+  color: $color-red;
   font-family: $font-bolder;
   font-style: italic;
-
+  font-size: $font-size-smaller;
 }
 
-
-
-.weather-box{
+.weather-box {
   font-size: $font-size-smaller;
-  padding: 15px;
-
+  width: 30vw;
+  padding: 1vh 2vw;
   border: 2px solid $color-gray;
   border-radius: 20px;
-    &:focus{
-      outline: none;
-    }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .weather-data {
@@ -45,26 +43,29 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0;
   font-size: $font-origin;
+  width: auto;
 
- :first-child{
-   font-family: $font-bold;
-   font-size: $font-size-bigger;
-   color: $color-gray-white;
-   letter-spacing: -4px;
- }
-  .weather-image{
-    height:150px;
+  :first-child {
+    font-family: $font-bold;
+    font-size: 5rem;
+    color: $color-gray-white;
+    letter-spacing: -4px;
+    height: auto;
   }
 
-  .temp{
+  .weather-image {
+    height: 7vh;
+  }
+
+  .temp {
     font-family: $font-bolder;
-    color:$color-white;
+    color: $color-white;
   }
 
-  :last-child{
+  :last-child {
     font-size: calc($font-size-smaller + 10px);
     margin-left: 40px;
-    color:$color-gray-white
+    color: $color-gray-white
   }
 }
 

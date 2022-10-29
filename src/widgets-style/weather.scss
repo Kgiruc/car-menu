@@ -8,10 +8,6 @@
   height: 100%;
   border-radius: 20px;
   background-color: $color-white-transparent;
-  @media only screen and (max-width: 1200px) {
-    height: 27vh;
-    width: 40vh;
-  }
 }
 
 .inscription {
@@ -69,3 +65,9 @@
   }
 }
 
+@media screen and (max-width: 1200px){
+  .container {
+    width: 90vw;
+    height: 60vh;
+  }
+}

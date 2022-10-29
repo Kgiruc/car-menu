@@ -1,20 +1,15 @@
-
 .map-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
   width: 100vh;
+}
 
-  @media only screen and (max-width: 1200px) {
-    height: 50vh;
-    width: 80vh;
-  }
-  .map {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-  }
+.map {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .marker {
@@ -22,10 +17,9 @@
   background-size: cover;
   width: 32px;
   height: 32px;
-
 }
 
-.marker-goal{
+.marker-goal {
   width: 42px;
   height: 42px;
   background-image: url('https://cdn-icons-png.flaticon.com/512/684/684908.png');

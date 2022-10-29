@@ -9,3 +9,9 @@
   margin-right: auto;
   gap:20px;
 }
+
+@media screen and (max-width: 1200px){
+  .home-container {
+    flex-flow: column;
+  }
+}

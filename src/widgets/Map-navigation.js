@@ -164,31 +164,8 @@ export default function MapNavigation() {
         <>
             {map && <div className="map-container">
                 <div ref={mapElement} className="map"/>
-                <div className="search-bar__navigation">
-                    <h1 className="inscription">Where to start?</h1>
-                    <input
-                        type="text"
-                        id="longitude"
-                        className="longitude bar__navigation"
-                        placeholder="longitude"
-                        onChange={(e) => {
-                            setLongitude(e.target.value)
-                        }}
-                    />
-                    <input
-                        type="text"
-                        id="latitude"
-                        className="latitude bar__navigation"
-                        placeholder="latitude"
-                        onChange={(e) => {
-                            setLatitude(e.target.value)
-                        }}
-                    />
-
-                </div>
             </div>}
         </>
     )
-
 }
 

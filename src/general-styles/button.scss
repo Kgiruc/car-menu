@@ -20,3 +20,10 @@
 .home {
   margin-left: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .navigation {
+    margin: 50px auto;
+    display: block;
+  }
+}

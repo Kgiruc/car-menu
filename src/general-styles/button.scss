@@ -27,3 +27,12 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    position: absolute;
+    left: 25vw;
+    bottom: 2vh;
+    margin: 0;
+  }
+}

@@ -2,3 +2,9 @@
   font-size: $font-size-bigger;
   color: $color-white;
 }
+
+@media screen and (max-width: 600px){
+  .clock {
+    font-size: $font-size-general;
+  }
+}

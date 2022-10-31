@@ -65,9 +65,31 @@
   }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   .container {
     width: 90vw;
     height: 60vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .weather-box {
+    width: 80vw;
+  }
+
+  .weather-data {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+
+    :last-child {
+      margin: 0;
+      font-size: $font-size-smaller;
+    }
   }
 }

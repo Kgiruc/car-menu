@@ -87,6 +87,14 @@
     align-items: center;
     gap: 10px;
 
+    :first-child {
+      font-size: $font-size-smartphone;
+    }
+
+    :nth-child(3) {
+      font-size: $font-size-smartphone;
+    }
+
     :last-child {
       margin: 0;
       font-size: $font-size-smaller;

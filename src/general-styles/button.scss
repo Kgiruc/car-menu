@@ -29,10 +29,16 @@
 }
 
 @media screen and (max-width: 600px) {
+  .btn {
+    padding: 10px;
+    width: 200px;
+    font-size: $font-size-smaller;
+  }
   .navigation {
     position: absolute;
     left: 25vw;
     bottom: 2vh;
     margin: 0;
+    z-index: -10;
   }
 }
